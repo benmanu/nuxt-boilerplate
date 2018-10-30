@@ -1,7 +1,21 @@
+import client from './plugins/contentful';
+
 const pkg = require('./package');
 
 module.exports = {
   mode: 'universal',
+
+  /**
+  ** Generate dynamic urls
+  */
+  generate: {
+    async routes() {
+      const res = await client().getEntries({
+        content_type: 'page',
+      });
+      return res.items.map(page => `/${page.fields.slug}`);
+    },
+  },
 
   /*
   ** Headers of the page

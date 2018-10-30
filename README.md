@@ -24,6 +24,12 @@ $ yarn start
 
 # generate static project
 $ yarn run generate
+
+# lint the code base
+$ yarn run lint
+
+# run the unit test suite
+$ yarn run test
 ```
 
 For detailed explanation on how things work, checkout [Nuxt.js docs](https://nuxtjs.org).
@@ -52,6 +58,10 @@ This is for if the site does not have a space associated with it yet.
 # progromatically create a space
 $ contentful space create --name 'New Space'
 ```
+
+## Contentful - API keys
+
+Create a `.env` file in the root directory. Copy the configuration from the `.env.copy` file, filling in the blanks.
 
 ## Unit Tests
 
