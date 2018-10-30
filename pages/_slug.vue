@@ -15,14 +15,14 @@
 export default {
   computed: {
     currentPage() {
-      return this.$store.state.page.currentPage
+      return this.$store.state.page.currentPage;
     },
     isLoading() {
-      return this.$store.state.page.isLoading
-    }
+      return this.$store.state.page.isLoading;
+    },
   },
   async fetch({ store, params }) {
-    await store.dispatch('page/getPageBySlug', params.slug)
-  }
-}
+    await store.dispatch('page/getPageBySlug', params.slug);
+  },
+};
 </script>

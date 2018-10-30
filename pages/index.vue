@@ -27,11 +27,11 @@
 export default {
   computed: {
     pages() {
-      return this.$store.state.pages.pages
-    }
+      return this.$store.state.pages.pages;
+    },
   },
   async fetch({ store, params }) {
-    await store.dispatch('pages/getPages', params.slug)
-  }
-}
+    await store.dispatch('pages/getPages', params.slug);
+  },
+};
 </script>

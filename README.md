@@ -41,8 +41,8 @@ $ contentful login
 $ contentful logout
 ```
 
-[Cotentful docs](https://www.contentful.com/developers/docs/javascript/tutorials/integrate-contentful-with-vue-and-nuxt/)
-[Contentful with VueX](https://chrisboakes.com/serverless-with-nuxtjs-vue-contentful-netlify/)
+- [Cotentful docs](https://www.contentful.com/developers/docs/javascript/tutorials/integrate-contentful-with-vue-and-nuxt/)
+- [Contentful with VueX](https://chrisboakes.com/serverless-with-nuxtjs-vue-contentful-netlify/)
 
 ## Contentful - Space
 
@@ -52,3 +52,8 @@ This is for if the site does not have a space associated with it yet.
 # progromatically create a space
 $ contentful space create --name 'New Space'
 ```
+
+## Unit Tests
+
+- [Jest](https://jestjs.io/docs/en/getting-started)
+- [Guide](https://vue-test-utils.vuejs.org/guides/testing-single-file-components-with-jest.html)
