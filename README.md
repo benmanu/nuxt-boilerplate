@@ -2,6 +2,13 @@
 
 > My remarkable Nuxt.js project
 
+TODO:
+- Look at integrating Storybook.
+- Hook into a test API for local development.
+- Contentful published/draft content states.
+- Different Contentful environments.
+- Integrate [Jest Snapshot](https://jestjs.io/docs/en/snapshot-testing) tests.
+
 ## Create
 
 ``` bash
